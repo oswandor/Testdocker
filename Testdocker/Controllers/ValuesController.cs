@@ -12,7 +12,7 @@ namespace Testdocker.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Developer", "Cambios" };
         }
 
         // GET api/<ValuesController>/5
